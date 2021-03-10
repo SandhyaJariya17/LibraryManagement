@@ -23,7 +23,7 @@ public class StudentDAOimpl implements StudentDAO{
         int result=0;
         try{
             int id=student.getId();
-            String roll=student.getName();
+            String roll=student.getRoll();
             String name=student.getName();
             int bid=student.getBid();
             int semNumber=student.getSemNumber();

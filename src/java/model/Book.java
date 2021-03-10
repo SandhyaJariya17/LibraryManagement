@@ -14,7 +14,7 @@ public class Book {
     private String name;
     private String publisher;
     private String author;
-    private String copies;
+    private int copies;
     private String subject;
 
     public int getId() {
@@ -49,11 +49,11 @@ public class Book {
         this.author = author;
     }
 
-    public String getCopies() {
+    public int getCopies() {
         return copies;
     }
 
-    public void setCopies(String copies) {
+    public void setCopies(int copies) {
         this.copies = copies;
     }
 

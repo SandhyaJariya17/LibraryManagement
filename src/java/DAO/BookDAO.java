@@ -17,10 +17,10 @@ public interface BookDAO {
     int remove(int id);
     ArrayList<Book> getAll();
     Book get(int id);
-    ArrayList<Book> getByname(String bookName);
-    ArrayList<Book> getByAuthor(String bookAuthor);
-    ArrayList<Book> getByPublisher(String bookPublisher);
-    ArrayList<Book> getBySubject(String bookSubject);
+    ArrayList<Book> getByname(String name);
+    ArrayList<Book> getByAuthor(String author);
+    ArrayList<Book> getByPublisher(String publisher);
+    ArrayList<Book> getBySubject(String subject);
             
     
 }
